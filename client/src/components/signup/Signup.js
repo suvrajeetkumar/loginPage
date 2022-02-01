@@ -1,10 +1,10 @@
 import React,{useEffect, useState} from 'react';
 import Button from '@material-ui/core/Button';
-import './Login.css';
+import './Signup.css';
 import TextField from '@material-ui/core/TextField';
 import {Link, useHistory} from 'react-router-dom';
 import UserPool from '../../UserPool';
-const Login = () => {
+const Signup = () => {
 
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
@@ -36,7 +36,7 @@ const Login = () => {
        
         <div>
         <div className="Logintext">
-          Login
+          SignUp
         </div>
         
       </div>
@@ -63,4 +63,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default Signup;
